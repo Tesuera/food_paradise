@@ -1,0 +1,51 @@
+@media screen and (width < 1240px) {
+    .hero_container {
+        height: clamp(1100px ,100vh, 940px);
+    }
+
+    .logo {
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+    }
+
+    .navbar {
+        height: 140px;
+        padding-inline: 6rem;
+    }
+
+    .mobile_nav {
+        all: unset;
+        display: block;
+        color: white;
+        font-size: 1.4rem;
+    }
+
+    .nav_menus {
+        display: none;
+    }
+
+    
+    .hero_content {
+        padding-inline: 6rem;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .hero_left, .hero_right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero_left {
+        margin-bottom: 4rem;
+    }
+
+    .hero_title {
+        font-size: 2.8rem;
+        line-height: 3.8rem;
+    }
+
+    .hero_img {
+        width: 420px;
+    }
+}

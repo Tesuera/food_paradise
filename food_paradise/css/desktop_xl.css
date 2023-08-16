@@ -1,0 +1,92 @@
+.hero_container {
+    width: 100%;
+    height: clamp(940px ,100vh, 800px);
+    background-color: var(--var-primary);
+}
+
+.navbar {
+    width: min(100%, 1600px);
+    height: 120px;
+    margin-inline: auto;
+    padding-inline: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile_nav {
+    display: none;
+}
+
+.logo {
+    all: unset;
+    color: white;
+    font-size: 2rem;
+    line-height: 1.8rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.nav_menus {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1.2rem;
+}
+
+.nav_menus > .nav_menu_list {
+    
+}
+
+.nav_items {
+    list-style-type: none;
+    float: left;
+    padding-inline: 1.2rem;
+}
+
+.nav_link {
+    all: unset;
+    color: white;
+    cursor: pointer;
+}
+
+.nav_menu_btn, .hero_btn {
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    padding: 0.7rem 2.6rem;
+    border-radius: 500px;
+    background-color: white;
+    color: var(--var-secondary);
+}
+
+.hero_content {
+    width: min(100%, 1600px);
+    margin-inline: auto;
+    margin-top: 5rem;
+    padding-inline: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero_left, .hero_right {
+    width: 50%;
+}
+
+.hero_title {
+    color: white;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+.hero_btn {
+    background-color: var(--var-secondary);
+    color: white;
+}
+
+.hero_img {
+    width: 600px;
+}

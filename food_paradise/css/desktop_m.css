@@ -1,0 +1,22 @@
+@media screen and (width <1680px) {
+    .hero_container {
+        height: clamp(800px ,100vh, 760px);
+    }
+
+    .navbar {
+        width: min(100%, 1180px);
+    }
+
+    .hero_content {
+        width: min(100%, 1180px);
+    }
+
+    .hero_title {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .hero_img {
+        width: 500px;
+    }
+}
