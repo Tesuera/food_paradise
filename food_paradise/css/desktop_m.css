@@ -1,6 +1,6 @@
 @media screen and (width <1680px) {
     .hero_container {
-        height: clamp(800px ,100vh, 760px);
+        height: clamp(760px ,100vh, 800px);
     }
 
     .navbar {
@@ -18,5 +18,80 @@
 
     .hero_img {
         width: 500px;
+    }
+
+
+    /* menu  */
+    .menu_container {
+        padding-block: 4rem 2rem;
+    }
+
+    .menu_content {
+        width: min(100%, 1180px);
+    }
+
+    .container_title {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .menu_cat_con {
+        margin-block: 3rem;
+    }
+
+    .menu_cat_title {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .each_course {
+        height: 100px;
+    }
+
+    .each_course_content > h4 {
+        font-size: 1.2rem;
+    }
+
+    /* location */
+
+    .location_container {
+        padding-block: 3rem 6rem;
+    }
+    
+    .location_content_con {
+        width: min(100%, 1000px);
+        padding-inline: 2rem;
+        margin-inline: auto;
+    }
+    
+    .location_content {
+        margin-top: 4rem;
+        gap: 4rem;
+    }
+    
+    .map {
+        width: 380px;
+        height: 380px;
+    }
+
+    .address {
+        font-size: 1.3rem;
+        margin-bottom: 2.4rem;
+    }
+    
+    .navigate, .phone {
+        font-size: 1.05rem;
+    }
+    
+    .navigate {
+        margin-bottom: 1.3rem;
+    }
+
+
+
+    /* footer */
+
+    .footer_content_con {
+        width: min(100%, 956px);
     }
 }
