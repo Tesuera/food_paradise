@@ -357,3 +357,8 @@
     color: white;
     background-color: var(--var-primary);
 }
+
+.hero_container ::selection {
+    color: white;
+    background-color: var(--var-secondary);
+}
