@@ -50,6 +50,10 @@
     cursor: pointer;
 }
 
+.nav_link:hover {
+    color: rgb(234, 234, 234);
+}
+
 .nav_menu_btn, .hero_btn {
     border: none;
     outline: none;
@@ -58,6 +62,7 @@
     border-radius: 500px;
     background-color: white;
     color: var(--var-secondary);
+    cursor: pointer;
 }
 
 .hero_content {
@@ -89,6 +94,8 @@
 
 .hero_img {
     width: 600px;
+    user-select: none;
+    pointer-events: none;
 }
 
 /* menu */
@@ -334,4 +341,19 @@
     all: unset;
     color: white;
     cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--var-primary);
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+::selection {
+    color: white;
+    background-color: var(--var-primary);
 }
