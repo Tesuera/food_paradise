@@ -237,7 +237,7 @@
 
 .footer_container {
     width: 100%;
-    height: clamp(600px, 100vh, 700px);
+    height: clamp(500px, 60vh, 550px);
     background-color: var(--var-primary);
     display: flex;
     align-items: center;
